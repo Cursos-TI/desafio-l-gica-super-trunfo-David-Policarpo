@@ -105,7 +105,7 @@ int main(){
                         //Comparação das cartas.
                         int escolha;
 
-                        printf("Qual será o atributo comparado?\n");
+                        printf("\nQual será o atributo comparado?\n");
                         printf("1. População.\n");
                         printf("2. Área.\n");
                         printf("3. PIB.\n");
