@@ -122,7 +122,7 @@ int main(){
                             printf("Carta 2 - Rio de Janeiro (RJ): %d\n", populacao2);
                             if (populacao1 > populacao2)
                             { printf ("### Resultado: Carta 1 - (São Paulo) venceu! ###\n");
-                            } else if (populacao1 > populacao2) { 
+                            } else if (populacao1 < populacao2) { 
                                 printf("### Resultado: Carta 2 - (Rio de Janeiro) venceu! ###\n");
                             } else { 
                                 printf("### Empate! ###");
@@ -135,7 +135,7 @@ int main(){
                             printf("Carta 2 - Rio de Janeiro (RJ): %.2f\n", area2);
                             if (area1 > area2)
                             { printf ("### Resultado: Carta 1 - (São Paulo) venceu! ###\n");
-                            } else if (area1 > area2) { printf("### Resultado: Carta 2 - (Rio de Janeiro) venceu! ###\n");
+                            } else if (area1 < area2) { printf("### Resultado: Carta 2 - (Rio de Janeiro) venceu! ###\n");
                             } else { 
                                 printf("### Empate! ###");
                             }
@@ -147,7 +147,7 @@ int main(){
                             printf("Carta 2 - Rio de Janeiro (RJ): %.2f\n", pib2);
                             if (pib1 > pib2)
                             { printf ("### Resultado: Carta 1 - (São Paulo) venceu! ###\n");
-                            } else if (pib1 > pib2) { printf("### Resultado: Carta 2 - (Rio de Janeiro) venceu! ###\n");
+                            } else if (pib1 < pib2) { printf("### Resultado: Carta 2 - (Rio de Janeiro) venceu! ###\n");
                             } else { 
                                 printf("### Empate! ###");
                             }
@@ -159,7 +159,7 @@ int main(){
                             printf("Carta 2 - Rio de Janeiro (RJ): %d\n", turistico2);
                             if (turistico1 > turistico2)
                             { printf ("### Resultado: Carta 1 - (São Paulo) venceu! ###\n");
-                            } else if (turistico1 > turistico2) { printf("### Resultado: Carta 2 - (Rio de Janeiro) venceu! ###\n");
+                            } else if (turistico1 < turistico2) { printf("### Resultado: Carta 2 - (Rio de Janeiro) venceu! ###\n");
                             } else {
                                 printf("### Empate! ###");
                             }
@@ -171,7 +171,7 @@ int main(){
                             printf("Carta 2 - Rio de Janeiro (RJ): %.2f\n", densidade2);
                             if (densidade1 < densidade2)
                             { printf ("### Resultado: Carta 1 - (São Paulo) venceu! ###\n");
-                            } else if (densidade1 < densidade2) { printf("### Resultado: Carta 2 - (Rio de Janeiro) venceu! ###\n");
+                            } else if (densidade1 > densidade2) { printf("### Resultado: Carta 2 - (Rio de Janeiro) venceu! ###\n");
                             } else { 
                                 printf("### Empate! ###");
                             }
